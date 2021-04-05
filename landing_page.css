@@ -86,19 +86,31 @@ header h1 {
   width: 15%;
   line-height: 1.5em;
 }
-.main {
-  width: 100%;
+.m_container {
   height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .mis {
+  background: black;
   width: 80%;
-  margin: auto;
-  height: 50%;
+  height: 80%;
   display: flex;
   flex-direction: row;
 }
 
 .mtxt {
+  flex-basis: 50%;
 }
-*/
+
+.m_img {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
