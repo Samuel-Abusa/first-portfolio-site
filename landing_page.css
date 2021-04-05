@@ -60,3 +60,20 @@ header p {
   width: 15%;
   line-height: 1.4em;
 }
+
+header h2 {
+  position: relative;
+  top: 34%;
+  left: 16%;
+}
+header span {
+  color: #f3e5c8;
+}
+
+header h1 {
+  position: relative;
+  top: 38%;
+  left: 16%;
+  width: 15%;
+  line-height: 1.5em;
+}
