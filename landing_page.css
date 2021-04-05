@@ -6,6 +6,7 @@
 body {
   margin: auto;
   color: white;
+  background: #2c2c2c;
 }
 
 .f_container {
@@ -24,7 +25,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 2em;
-  background: black;
 }
 
 nav h1 {
@@ -44,6 +44,7 @@ nav span {
 nav a {
   text-decoration: none;
   color: white;
+  font-size: large;
 }
 
 header p {
