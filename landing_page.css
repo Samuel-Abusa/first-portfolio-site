@@ -170,3 +170,48 @@ header h1 {
   justify-content: flex-end;
   align-items: center;
 }
+
+.about {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.about h1 {
+  width: 20%;
+  position: relative;
+  left: 13%;
+  top: 2%;
+  margin-bottom: 30px;
+}
+
+.about img {
+  height: 22%;
+  width: 12%;
+  border-radius: 50%;
+  filter: grayscale(50%);
+  position: relative;
+  top: 5%;
+  left: 11%;
+}
+
+.about p {
+  width: 20%;
+  font-size: larger;
+  font-style: italic;
+  line-height: 2.5em;
+  position: relative;
+  top: 9%;
+  left: 9%;
+}
+
+.overlay {
+  background: url(images/coffee.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  right: 0;
+}
