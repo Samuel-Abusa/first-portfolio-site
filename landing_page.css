@@ -54,8 +54,30 @@ nav span {
   font-family: "Nanum Myeongjo", serif;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown p {
+  font-weight: bold;
+  font-size: larger;
+}
+
 .dropdown_content {
   display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.05);
+  width: 200%;
+  padding: 1em;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.dropdown_content a {
+  display: block;
+  margin-top: 20px;
 }
 
 nav a {
