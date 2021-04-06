@@ -7,6 +7,13 @@ body {
   margin: auto;
   color: white;
   background: #2c2c2c;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Abril Fatface", cursive;
 }
 
 img {
@@ -38,10 +45,13 @@ nav h1 {
   justify-self: flex-start;
   margin-left: 2em;
   width: 30px;
+  font-family: "Lobster", cursive;
+  font-size: 200%;
 }
 nav span {
-  font-size: large;
+  font-size: 80%;
   font-weight: lighter;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .dropdown_content {
