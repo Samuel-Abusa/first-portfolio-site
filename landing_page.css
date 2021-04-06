@@ -96,15 +96,39 @@ header h1 {
 }
 
 .mis {
-  background: black;
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 60%;
   display: flex;
   flex-direction: row;
 }
 
 .mtxt {
   flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 150%;
+}
+
+.mtxt h2 {
+  width: 100%;
+  line-height: 1.6em;
+  margin-bottom: 2em;
+  margin: auto;
+}
+.mtxt span {
+  color: rgb(238, 238, 97);
+}
+
+.mtxt p {
+  margin-bottom: 1.3em;
+}
+
+.mtxt li {
+  margin-bottom: 0.8em;
+  font-size: 90%;
+  color: rgb(185, 178, 178);
 }
 
 .m_img {
